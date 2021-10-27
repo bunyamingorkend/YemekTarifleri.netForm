@@ -5,7 +5,7 @@
     <p>
         <asp:DataList ID="DataList2" runat="server" Width="474px">
             <ItemTemplate>
-                <a href ="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>"
+                <a href ="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>">
                 <asp:Label ID="Label3" runat="server" Text='<%# Eval("YemekAd") %>'></asp:Label>
                 <br />
                     </a>
